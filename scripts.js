@@ -26,7 +26,9 @@ function openDoor(i) {
 
 function setBackgroundImg(i) {
     let door = document.getElementById(`calendarDoor${i}`);
-    door.style.backgroundImage = `url(./img/${i}.jpg)`;
+    door.style.backgroundImage = `url(./img/bild${i}.jpg)`;
+    door.style.color = "transparent";
+    door.style.color = "rgba(0, 0, 0, 0.2)";
 }
 
 function saveToLocalStorage() {

@@ -35,19 +35,21 @@ body {
 
 .calendarDoor {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.8);
     padding-top: 32px;
     border: 1px dotted white;
-    width: 18%;
+    width: 15%;
     color: white;
     cursor: pointer;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     transition: all 200ms ease-in-out;
     border-radius: 5px;
 }
 
 .calendarDoor:hover {
     transform: scale(1.05);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
 }
